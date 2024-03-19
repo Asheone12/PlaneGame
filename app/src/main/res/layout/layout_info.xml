@@ -42,8 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingMultiplier="1.5"
-                android:padding="10dp"
-                android:text="@string/readme"
+                android:padding="20dp"
+                android:text="@string/game_introduce"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
 
@@ -57,60 +57,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/contact"
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_margin="10dp"
-                android:background="@android:color/darker_gray" />
-
-            <Button
-                android:id="@+id/btnJianShu"
-                style="@style/btn_info"
-                android:text="@string/jian_shu" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_margin="10dp"
-                android:background="@android:color/darker_gray" />
-
-            <Button
-                android:id="@+id/btnQQ"
-                style="@style/btn_info"
-                android:text="@string/qq_link" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_margin="10dp"
-                android:background="@android:color/darker_gray" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
                 android:gravity="center"
-                android:lineSpacingMultiplier="1.5"
-                android:text="微信搜一搜：口袋里的安卓\n或截图保存后用微信扫一扫功能打开"
+                android:text="@string/copyright"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
 
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:src="@drawable/qrcode_wx" />
-
-            <LinearLayout
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray" />
 
-            </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

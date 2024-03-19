@@ -148,8 +148,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), CoroutineScope by Main
             AppHelper.isPause = !AppHelper.isPause
             viewBinding.info.vgInfomation.visibility = if (AppHelper.isPause) View.VISIBLE else View.GONE
         }
-        viewBinding.info.btnJianShu.setOnClickListener { openBrowser(viewBinding.info.btnJianShu.text.toString().split("\n")[1]) }
-        viewBinding.info.btnQQ.setOnClickListener { openBrowser(viewBinding.info.btnQQ.text.toString().split("\n")[1]) }
     }
 
     @SuppressLint("ClickableViewAccessibility")
